@@ -4,17 +4,6 @@ import DiscList from "../DiscList";
 import axios from "axios";
 
 const DiscCatalog = () => {
-    const p2 = {
-        name: "P2",
-        manufacturer: "Discmania",
-        type: "Putter",
-        tag: "Neutral",
-        speed: 2,
-        glide: 3,
-        turn: 0,
-        fade: 1
-    }
-
     const [brandFilter, setBrandFilter] = useState('None')
     const [typeFilter, setTypeFilter] = useState('None')
     const [tagFilter, setTagFilter] = useState('None')
